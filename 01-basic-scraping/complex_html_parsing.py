@@ -67,3 +67,15 @@ print(find_item_name())
 print(find_item_page_link())
 print(find_item_price())
 print(find_item_rating())
+
+# You can then turn it into a dictionary or whichever
+# way is easiest to store and work with:
+
+item = {
+    'name': find_item_name(),
+    'link': find_item_page_link(),
+    'price': find_item_price(),
+    'rating': find_item_rating()
+}
+
+print(item)
